@@ -1,0 +1,6 @@
+<template name="insertProductForm">
+  {{> quickForm collection="Products" id="insertProductForm" type="insert"}}
+  {{#each products}}
+    {{ display }}<br/>
+  {{/each}}
+</template>
